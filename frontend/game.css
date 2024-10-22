@@ -118,10 +118,46 @@
 .home-for-pawns{
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    height: 160px;
-    width: 160px;
+    background-color: white; 
+    height: 80%;
+    width: 80%;
 }
 
+.top-pawn-home{
+    height: 40%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-pawn-home{
+    height: 40%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    
+}
+
+.cirlce-pawn{
+    height: 70%;
+    width: 35%;
+    border-radius: 100%;
+}
+
+
+#circle-red{
+    background-color: #F21F0A;
+}
+#circle-green{
+    background-color: #2A9148;
+}
+#circle-blue{
+    background-color: #121E96;
+}
+#circle-yellow{
+    background-color: #FFC50A;
+}

@@ -161,3 +161,23 @@
 #circle-yellow{
     background-color: #FFC50A;
 }
+
+.right-map-1{
+    display: flex;
+    width: 100%;
+    height: 33.33%;
+}
+
+.rm-block{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+}
+
+#yellow-block{
+    background-color: #FFC50A;
+}
+
+#red-block{
+    background-color: #F21F0A;
+}

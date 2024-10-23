@@ -34,6 +34,8 @@
 
 .right-map{
     position: absolute;
+    display: flex;
+    flex-direction: column;
     background-color: #D9D9D9;
     height: 120px;
     width: 200px;
@@ -42,6 +44,8 @@
 
 .left-map{
     position: absolute;
+    display: flex;
+    flex-direction: column;
     background-color: #D9D9D9;
     height: 120px;
     width: 200px;
@@ -50,6 +54,7 @@
 
 .down-map{
     position: absolute;
+    display: flex;
     background-color: #D9D9D9;
     height: 200px;
     width: 120px;
@@ -165,7 +170,7 @@
 .right-map-1{
     display: flex;
     width: 100%;
-    height: 33.33%;
+    height: 100%;
 }
 
 .rm-block{
@@ -180,4 +185,25 @@
 
 #red-block{
     background-color: #F21F0A;
+}
+
+.up-down-map{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.ud-block{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+}
+
+#blue-block{
+    background-color: #121E96;
+}
+
+#green-block{
+    background-color: #2A9148;
 }
